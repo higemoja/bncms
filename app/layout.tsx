@@ -9,16 +9,16 @@ import styles from './layout.module.css';
 export const metadata = {
   metadataBase: new URL(process.env.BASE_URL || 'http://localhost:3000'),
   title: {
-    template: '%s | Simple Blog',
-    default: 'Simple Blog',
+    template: '%s | bokenote_',
+    default: 'bokenote_',
   },
-  description: 'A simple blog presented by microCMS',
+  description: '眠らせているネタはありませんか？bokenote_なら、あなたの漫才・コントネタを気軽に投稿・共有し、AIからの具体的なフィードバックで徹底的に磨き上げられます。同じ志を持つ仲間が集まるコミュニティで、互いに刺激し合い、共に笑いを創造しよう！アマチュア芸人、学生、作家志望、大歓迎！あなたのネタがここから進化します。',
   openGraph: {
     title: {
-      template: '%s | Simple Blog',
-      default: 'Simple Blog',
+      template: '%s | bokenote_',
+      default: 'bokenote_',
     },
-    description: 'A simple blog presented by microCMS',
+    description: '眠らせているネタはありませんか？bokenote_なら、あなたの漫才・コントネタを気軽に投稿・共有し、AIからの具体的なフィードバックで徹底的に磨き上げられます。同じ志を持つ仲間が集まるコミュニティで、互いに刺激し合い、共に笑いを創造しよう！アマチュア芸人、学生、作家志望、大歓迎！あなたのネタがここから進化します。',
     images: '/ogp.png',
   },
   alternates: {
